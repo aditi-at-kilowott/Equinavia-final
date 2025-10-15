@@ -1,0 +1,23 @@
+{
+  "apiVersion": 2,
+  "name": "equinavia/hero-promo",
+  "title": "Hero Promo",
+  "category": "design",
+  "icon": "format-image",
+  "description": "Wide hero with an image background and text/button overlay.",
+  "keywords": ["hero", "banner", "promo"],
+  "supports": { "align": ["wide", "full"] },
+  "attributes": {
+    "eyebrow":   { "type": "string", "default": "Featured Collection" },
+    "title":     { "type": "string", "default": "The Equinavia Equestrian Line" },
+    "buttonText":{"type": "string", "default": "Shop Now" },
+    "buttonUrl": { "type": "string", "default": "#" },
+    "imageID":   { "type": "number" },
+    "imageURL":  { "type": "string" },
+    "dim":       { "type": "number", "default": 35 }
+  },
+  "style": "eqn-hero-promo-style",
+  "editorStyle": "eqn-hero-promo-editor-style",
+  "editorScript": "eqn-hero-promo-editor",
+  "render": "file:./render.php"
+}

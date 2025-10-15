@@ -1,0 +1,7 @@
+/* front-end */
+.eqn-hero-slider { position: relative; width: 100%; overflow: hidden; }
+.eqn-hero-slider .swiper { width: 100%; height: clamp(360px, 60vh, 650px); }
+.eqn-hero-slider .swiper-pagination { bottom: 18px; left: 120px; text-align: left; }
+.eqn-hero-slider .swiper-pagination-bullet { width: 24px; height: 4px; border-radius: 2px; }
+.eqn-hero-slider .swiper-button-prev,
+.eqn-hero-slider .swiper-button-next { color: #fff; }

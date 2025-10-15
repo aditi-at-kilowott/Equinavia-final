@@ -1,0 +1,15 @@
+{
+  "apiVersion": 2,
+  "name": "equinavia/hero-slider",
+  "title": "Hero Slider",
+  "category": "design",
+  "icon": "images-alt2",
+  "description": "A full-width hero slider that contains Hero Slide blocks.",
+  "keywords": ["hero", "slider", "carousel", "banner"],
+  "supports": { "align": ["full", "wide"] },
+  "style": "eqn-hero-slider-style",
+  "editorStyle": "eqn-hero-slider-editor",
+  "editorScript": "eqn-hero-slider-editor", 
+  "viewScript": "eqn-hero-slider-frontend",
+"render": "file:./render.php"
+}

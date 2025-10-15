@@ -1,0 +1,2 @@
+/* Slightly darken in editor so text stays readable */
+.block-editor-block-list__block .eqn-hero-promo__overlay { background: #000; }

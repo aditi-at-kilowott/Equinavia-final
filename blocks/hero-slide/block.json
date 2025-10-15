@@ -1,0 +1,22 @@
+{
+  "apiVersion": 2,
+  "name": "equinavia/hero-slide",
+  "title": "Hero Slide",
+  "parent": ["equinavia/hero-slider"],
+  "category": "widgets",
+  "icon": "format-image",
+  "description": "One slide with background image, text and button.",
+  "supports": { "reusable": false },
+  "attributes": {
+    "eyebrow":   { "type": "string", "default": "Latest in Stock" },
+    "title":     { "type": "string", "default": "New Arrivals" },
+    "buttonText":{"type": "string", "default": "Shop Now" },
+    "buttonUrl": { "type": "string", "default": "#" },
+    "imageID":   { "type": "number" },
+    "imageURL":  { "type": "string" },
+    "dim":       { "type": "number", "default": 35 }
+  },
+  "style": "eqn-hero-slide-style",
+  "editorStyle": "eqn-hero-slide-editor",
+  "editorScript": "eqn-hero-slide-editor"     
+}
