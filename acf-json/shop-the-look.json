@@ -1,0 +1,65 @@
+{
+    "key": "group_shop_the_look",
+    "title": "Shop The Look Section",
+    "fields": [
+        {
+            "key": "field_shop_look_heading",
+            "label": "Section Headline",
+            "name": "shop_look_heading",
+            "type": "text"
+        },
+        {
+            "key": "field_shop_look_bg",
+            "label": "Background Image",
+            "name": "shop_look_bg",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_hotspot_1_label",
+            "label": "Hotspot 1 Label",
+            "name": "hotspot_1_label",
+            "type": "text"
+        },
+        {
+            "key": "field_hotspot_1_url",
+            "label": "Hotspot 1 URL",
+            "name": "hotspot_1_url",
+            "type": "url"
+        },
+        {
+            "key": "field_hotspot_2_label",
+            "label": "Hotspot 2 Label",
+            "name": "hotspot_2_label",
+            "type": "text"
+        },
+        {
+            "key": "field_hotspot_2_url",
+            "label": "Hotspot 2 URL",
+            "name": "hotspot_2_url",
+            "type": "url"
+        },
+        {
+            "key": "field_hotspot_3_label",
+            "label": "Hotspot 3 Label",
+            "name": "hotspot_3_label",
+            "type": "text"
+        },
+        {
+            "key": "field_hotspot_3_url",
+            "label": "Hotspot 3 URL",
+            "name": "hotspot_3_url",
+            "type": "url"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-landing.php"
+            }
+        ]
+    ],
+    "active": true
+}

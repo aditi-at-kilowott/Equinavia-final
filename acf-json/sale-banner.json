@@ -1,0 +1,209 @@
+{
+    "key": "group_eos_section",
+    "title": "End of Season / Sale Banner Section",
+    "fields": [
+        {
+            "key": "field_eos_banner_image",
+            "label": "Banner Image",
+            "name": "eos_banner_image",
+            "type": "image",
+            "return_format": "url",
+            "default_value": "<?php echo get_template_directory_uri(); ?>/assets/images/sale-banner.png"
+        },
+        {
+            "key": "field_eos_banner_title",
+            "label": "Banner Title",
+            "name": "eos_banner_title",
+            "type": "text",
+            "default_value": "BIG SAVINGS"
+        },
+        {
+            "key": "field_eos_banner_subtitle",
+            "label": "Banner Subtitle",
+            "name": "eos_banner_subtitle",
+            "type": "text",
+            "default_value": "End of Season Sale"
+        },
+        {
+            "key": "field_eos_banner_description",
+            "label": "Banner Description",
+            "name": "eos_banner_description",
+            "type": "textarea",
+            "default_value": "Lectus vivamus iaculis nunc sagittis mattis ut."
+        },
+        {
+            "key": "field_eos_banner_button_text",
+            "label": "Banner Button Text",
+            "name": "eos_banner_button_text",
+            "type": "text",
+            "default_value": "Shop Now"
+        },
+        {
+            "key": "field_eos_banner_button_url",
+            "label": "Banner Button URL",
+            "name": "eos_banner_button_url",
+            "type": "url",
+            "default_value": "#"
+        },
+        {
+            "key": "field_eos_product_1_image",
+            "label": "Product 1 Image",
+            "name": "eos_product_1_image",
+            "type": "image",
+            "return_format": "url",
+            "default_value": "<?php echo get_template_directory_uri(); ?>/assets/images/sb1.png"
+        },
+        {
+            "key": "field_eos_product_1_name",
+            "label": "Product 1 Name",
+            "name": "eos_product_1_name",
+            "type": "text",
+            "default_value": "Maud Womens Full Seat Breeches"
+        },
+        {
+            "key": "field_eos_product_1_brand",
+            "label": "Product 1 Brand",
+            "name": "eos_product_1_brand",
+            "type": "text",
+            "default_value": "EQUINAVIA"
+        },
+        {
+            "key": "field_eos_product_1_rating",
+            "label": "Product 1 Rating",
+            "name": "eos_product_1_rating",
+            "type": "text",
+            "default_value": "4.5"
+        },
+        {
+            "key": "field_eos_product_1_colors",
+            "label": "Product 1 Colors",
+            "name": "eos_product_1_colors",
+            "type": "text",
+            "default_value": "#434554,#5B81A4,#FFFFFF,#4D2231"
+        },
+        {
+            "key": "field_eos_product_1_price",
+            "label": "Product 1 Price",
+            "name": "eos_product_1_price",
+            "type": "text",
+            "default_value": "$109.99"
+        },
+        {
+            "key": "field_eos_product_1_old_price",
+            "label": "Product 1 Old Price",
+            "name": "eos_product_1_old_price",
+            "type": "text",
+            "default_value": "$129.99"
+        },
+        {
+            "key": "field_eos_product_2_image",
+            "label": "Product 2 Image",
+            "name": "eos_product_2_image",
+            "type": "image",
+            "return_format": "url",
+            "default_value": "<?php echo get_template_directory_uri(); ?>/assets/images/sb2.png"
+        },
+        {
+            "key": "field_eos_product_2_name",
+            "label": "Product 2 Name",
+            "name": "eos_product_2_name",
+            "type": "text",
+            "default_value": "Maud Womens Full Seat Breeches"
+        },
+        {
+            "key": "field_eos_product_2_brand",
+            "label": "Product 2 Brand",
+            "name": "eos_product_2_brand",
+            "type": "text",
+            "default_value": "EQUINAVIA"
+        },
+        {
+            "key": "field_eos_product_2_rating",
+            "label": "Product 2 Rating",
+            "name": "eos_product_2_rating",
+            "type": "text",
+            "default_value": "4.5"
+        },
+        {
+            "key": "field_eos_product_2_colors",
+            "label": "Product 2 Colors",
+            "name": "eos_product_2_colors",
+            "type": "text",
+            "default_value": "#434554,#FFFFFF,#C5B6F2,#4D2231"
+        },
+        {
+            "key": "field_eos_product_2_price",
+            "label": "Product 2 Price",
+            "name": "eos_product_2_price",
+            "type": "text",
+            "default_value": "$109.99"
+        },
+        {
+            "key": "field_eos_product_2_old_price",
+            "label": "Product 2 Old Price",
+            "name": "eos_product_2_old_price",
+            "type": "text",
+            "default_value": "$129.99"
+        },
+        {
+            "key": "field_eos_product_3_image",
+            "label": "Product 3 Image",
+            "name": "eos_product_3_image",
+            "type": "image",
+            "return_format": "url",
+            "default_value": "<?php echo get_template_directory_uri(); ?>/assets/images/sb3.png"
+        },
+        {
+            "key": "field_eos_product_3_name",
+            "label": "Product 3 Name",
+            "name": "eos_product_3_name",
+            "type": "text",
+            "default_value": "Maud Womens Full Seat Breeches"
+        },
+        {
+            "key": "field_eos_product_3_brand",
+            "label": "Product 3 Brand",
+            "name": "eos_product_3_brand",
+            "type": "text",
+            "default_value": "EQUINAVIA"
+        },
+        {
+            "key": "field_eos_product_3_rating",
+            "label": "Product 3 Rating",
+            "name": "eos_product_3_rating",
+            "type": "text",
+            "default_value": "4.5"
+        },
+        {
+            "key": "field_eos_product_3_colors",
+            "label": "Product 3 Colors",
+            "name": "eos_product_3_colors",
+            "type": "text",
+            "default_value": "#434554,#4D2231"
+        },
+        {
+            "key": "field_eos_product_3_price",
+            "label": "Product 3 Price",
+            "name": "eos_product_3_price",
+            "type": "text",
+            "default_value": "$109.99"
+        },
+        {
+            "key": "field_eos_product_3_old_price",
+            "label": "Product 3 Old Price",
+            "name": "eos_product_3_old_price",
+            "type": "text",
+            "default_value": "$129.99"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-landing.php"
+            }
+        ]
+    ],
+    "active": true
+}

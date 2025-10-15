@@ -1,0 +1,82 @@
+{
+    "key": "group_faq_section",
+    "title": "FAQ Section",
+    "fields": [
+        {
+            "key": "field_faq_heading",
+            "label": "Section Headline",
+            "name": "faq_heading",
+            "type": "text"
+        },
+        {
+            "key": "field_faq_question_1",
+            "label": "Question 1",
+            "name": "faq_question_1",
+            "type": "text"
+        },
+        {
+            "key": "field_faq_answer_1",
+            "label": "Answer 1",
+            "name": "faq_answer_1",
+            "type": "textarea"
+        },
+        {
+            "key": "field_faq_question_2",
+            "label": "Question 2",
+            "name": "faq_question_2",
+            "type": "text"
+        },
+        {
+            "key": "field_faq_answer_2",
+            "label": "Answer 2",
+            "name": "faq_answer_2",
+            "type": "textarea"
+        },
+        {
+            "key": "field_faq_question_3",
+            "label": "Question 3",
+            "name": "faq_question_3",
+            "type": "text"
+        },
+        {
+            "key": "field_faq_answer_3",
+            "label": "Answer 3",
+            "name": "faq_answer_3",
+            "type": "textarea"
+        },
+        {
+            "key": "field_faq_question_4",
+            "label": "Question 4",
+            "name": "faq_question_4",
+            "type": "text"
+        },
+        {
+            "key": "field_faq_answer_4",
+            "label": "Answer 4",
+            "name": "faq_answer_4",
+            "type": "textarea"
+        },
+        {
+            "key": "field_faq_question_5",
+            "label": "Question 5",
+            "name": "faq_question_5",
+            "type": "text"
+        },
+        {
+            "key": "field_faq_answer_5",
+            "label": "Answer 5",
+            "name": "faq_answer_5",
+            "type": "textarea"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-landing.php"
+            }
+        ]
+    ],
+    "active": true
+}

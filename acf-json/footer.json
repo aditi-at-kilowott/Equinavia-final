@@ -1,0 +1,146 @@
+{
+    "key": "group_footer",
+    "title": "Footer Section",
+    "fields": [
+        {
+            "key": "field_footer_logo_1",
+            "label": "Footer Logo 1",
+            "name": "footer_logo_1",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_footer_logo_2",
+            "label": "Footer Logo 2",
+            "name": "footer_logo_2",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_footer_payment_title",
+            "label": "Payment Title",
+            "name": "footer_payment_title",
+            "type": "text",
+            "default_value": "Payment Methods"
+        },
+        {
+            "key": "field_footer_payment_methods",
+            "label": "Payment Methods",
+            "name": "footer_payment_methods",
+            "type": "repeater",
+            "sub_fields": [
+                {
+                    "key": "field_payment_icon",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "image",
+                    "return_format": "url"
+                },
+                {
+                    "key": "field_payment_title",
+                    "label": "Title",
+                    "name": "title",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "key": "field_footer_links",
+            "label": "Footer Links",
+            "name": "footer_links",
+            "type": "repeater",
+            "sub_fields": [
+                {
+                    "key": "field_section_title",
+                    "label": "Section Title",
+                    "name": "section_title",
+                    "type": "text"
+                },
+                {
+                    "key": "field_links",
+                    "label": "Links",
+                    "name": "links",
+                    "type": "repeater",
+                    "sub_fields": [
+                        {
+                            "key": "field_label",
+                            "label": "Label",
+                            "name": "label",
+                            "type": "text"
+                        },
+                        {
+                            "key": "field_url",
+                            "label": "URL",
+                            "name": "url",
+                            "type": "url"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_footer_social_links",
+            "label": "Social Links",
+            "name": "footer_social_links",
+            "type": "repeater",
+            "sub_fields": [
+                {
+                    "key": "field_social_label",
+                    "label": "Label",
+                    "name": "label",
+                    "type": "text"
+                },
+                {
+                    "key": "field_social_url",
+                    "label": "URL",
+                    "name": "url",
+                    "type": "url"
+                },
+                {
+                    "key": "field_social_icon",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "image",
+                    "return_format": "url"
+                }
+            ]
+        },
+        {
+            "key": "field_footer_bottom_links",
+            "label": "Footer Bottom Links",
+            "name": "footer_bottom_links",
+            "type": "repeater",
+            "sub_fields": [
+                {
+                    "key": "field_bottom_label",
+                    "label": "Label",
+                    "name": "label",
+                    "type": "text"
+                },
+                {
+                    "key": "field_bottom_url",
+                    "label": "URL",
+                    "name": "url",
+                    "type": "url"
+                }
+            ]
+        },
+        {
+            "key": "field_footer_copyright",
+            "label": "Copyright Text",
+            "name": "footer_copyright",
+            "type": "text",
+            "default_value": "&copy;  USA | Copyright © Equinavia. All rights reserved"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options"
+            }
+        ]
+    ],
+    "active": true
+}

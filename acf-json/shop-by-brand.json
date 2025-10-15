@@ -1,0 +1,74 @@
+{
+    "key": "group_shop_by_brand",
+    "title": "Shop by Brand Section",
+    "fields": [
+        {
+            "key": "field_brand_heading",
+            "label": "Section Headline",
+            "name": "brand_heading",
+            "type": "text"
+        },
+        {
+            "key": "field_brand_1_img",
+            "label": "Brand 1 Image",
+            "name": "brand_1_img",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_brand_1_url",
+            "label": "Brand 1 URL",
+            "name": "brand_1_url",
+            "type": "url"
+        },
+        {
+            "key": "field_brand_2_img",
+            "label": "Brand 2 Image",
+            "name": "brand_2_img",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_brand_2_url",
+            "label": "Brand 2 URL",
+            "name": "brand_2_url",
+            "type": "url"
+        },
+        {
+            "key": "field_brand_3_img",
+            "label": "Brand 3 Image",
+            "name": "brand_3_img",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_brand_3_url",
+            "label": "Brand 3 URL",
+            "name": "brand_3_url",
+            "type": "url"
+        },
+        {
+            "key": "field_brand_4_img",
+            "label": "Brand 4 Image",
+            "name": "brand_4_img",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_brand_4_url",
+            "label": "Brand 4 URL",
+            "name": "brand_4_url",
+            "type": "url"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-landing.php"
+            }
+        ]
+    ],
+    "active": true
+}

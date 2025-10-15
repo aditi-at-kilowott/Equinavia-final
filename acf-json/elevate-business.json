@@ -1,0 +1,54 @@
+{
+    "key": "group_elevate_business",
+    "title": "Elevate Business Section",
+    "fields": [
+        {
+            "key": "field_elevate_headline",
+            "label": "Section Headline",
+            "name": "elevate_headline",
+            "type": "text"
+        },
+        {
+            "key": "field_elevate_description",
+            "label": "Section Description",
+            "name": "elevate_description",
+            "type": "textarea"
+        },
+        {
+            "key": "field_elevate_button_text",
+            "label": "Button Text",
+            "name": "elevate_button_text",
+            "type": "text"
+        },
+        {
+            "key": "field_elevate_button_url",
+            "label": "Button URL",
+            "name": "elevate_button_url",
+            "type": "url"
+        },
+        {
+            "key": "field_elevate_bg_image",
+            "label": "Background Image",
+            "name": "elevate_bg_image",
+            "type": "image",
+            "return_format": "url"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-landing.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": ""
+}

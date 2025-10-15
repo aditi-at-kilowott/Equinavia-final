@@ -1,0 +1,29 @@
+{
+    "key": "group_popular_categories",
+    "title": "Popular Categories Section",
+    "fields": [
+        { "key": "field_categories_heading", "label": "Section Headline", "name": "categories_heading", "type": "text" },
+
+        { "key": "field_category_1_img", "label": "Category 1 Image", "name": "category_1_img", "type": "image", "return_format": "url" },
+        { "key": "field_category_1_label", "label": "Category 1 Label", "name": "category_1_label", "type": "text" },
+        { "key": "field_category_1_url", "label": "Category 1 URL", "name": "category_1_url", "type": "url" },
+
+        { "key": "field_category_2_img", "label": "Category 2 Image", "name": "category_2_img", "type": "image", "return_format": "url" },
+        { "key": "field_category_2_label", "label": "Category 2 Label", "name": "category_2_label", "type": "text" },
+        { "key": "field_category_2_url", "label": "Category 2 URL", "name": "category_2_url", "type": "url" },
+
+        { "key": "field_category_3_img", "label": "Category 3 Image", "name": "category_3_img", "type": "image", "return_format": "url" },
+        { "key": "field_category_3_label", "label": "Category 3 Label", "name": "category_3_label", "type": "text" },
+        { "key": "field_category_3_url", "label": "Category 3 URL", "name": "category_3_url", "type": "url" },
+
+        { "key": "field_category_4_img", "label": "Category 4 Image", "name": "category_4_img", "type": "image", "return_format": "url" },
+        { "key": "field_category_4_label", "label": "Category 4 Label", "name": "category_4_label", "type": "text" },
+        { "key": "field_category_4_url", "label": "Category 4 URL", "name": "category_4_url", "type": "url" }
+    ],
+    "location": [
+        [
+            { "param": "page_template", "operator": "==", "value": "page-landing.php" }
+        ]
+    ],
+    "active": true
+}

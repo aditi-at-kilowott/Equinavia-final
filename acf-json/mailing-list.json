@@ -1,0 +1,53 @@
+{
+    "key": "group_mailing_list",
+    "title": "Mailing List Section",
+    "fields": [
+        {
+            "key": "field_section_title",
+            "label": "Section Title",
+            "name": "section_title",
+            "type": "text"
+        },
+        {
+            "key": "field_section_description",
+            "label": "Section Description",
+            "name": "section_description",
+            "type": "textarea"
+        },
+        {
+            "key": "field_form_label",
+            "label": "Form Label",
+            "name": "form_label",
+            "type": "text"
+        },
+        {
+            "key": "field_input_placeholder",
+            "label": "Input Placeholder",
+            "name": "input_placeholder",
+            "type": "text"
+        },
+        {
+            "key": "field_button_text",
+            "label": "Button Text",
+            "name": "button_text",
+            "type": "text"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-landing.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": ""
+}

@@ -1,0 +1,70 @@
+/* Elevate Business Section */
+.elevate-business {
+    display: flex;
+    min-height: 500px;
+    margin: 60px 0;
+}
+
+.elevate-content {
+    background-color: #e7e7e7;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.elevate-content .container {
+    padding: 0 40px;
+}
+
+.elevate-headline {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.elevate-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #111;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 25px;
+}
+
+.elevate-btn:hover {
+    background-color: #333;
+}
+
+.elevate-image {
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 900px) {
+    .elevate-business {
+        flex-direction: column; /* Stacks the content and image vertically */
+        min-height: auto;
+    }
+
+    .elevate-content,
+    .elevate-image {
+        width: 100%; /* Makes both sections full width */
+    }
+
+    .elevate-content {
+        padding: 40px 20px; /* Adjusts padding for mobile */
+        text-align: center; /* Centers the text */
+    }
+
+    .elevate-image {
+        height: 300px; /* Gives the image a fixed height on mobile */
+    }
+}

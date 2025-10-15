@@ -1,0 +1,17 @@
+{
+    "key": "group_single_collection",
+    "title": "Single Collection Banner",
+    "fields": [
+        { "key": "field_single_banner_img", "label": "Background Image", "name": "single_banner_img", "type": "image", "return_format": "url" },
+        { "key": "field_single_banner_sub", "label": "Sub Headline", "name": "single_banner_sub", "type": "text" },
+        { "key": "field_single_banner_head", "label": "Headline", "name": "single_banner_head", "type": "text" },
+        { "key": "field_single_banner_btn", "label": "Button Text", "name": "single_banner_btn", "type": "text" },
+        { "key": "field_single_banner_url", "label": "Button URL", "name": "single_banner_url", "type": "url" }
+    ],
+    "location": [
+        [
+            { "param": "page_template", "operator": "==", "value": "page-landing.php" }
+        ]
+    ],
+    "active": true
+}

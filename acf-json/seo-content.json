@@ -1,0 +1,41 @@
+{
+    "key": "group_seo_content",
+    "title": "SEO Content Section",
+    "fields": [
+        {
+            "key": "field_seo_headline",
+            "label": "Section Headline",
+            "name": "seo_headline",
+            "type": "text"
+        },
+        {
+            "key": "field_seo_paragraph_1",
+            "label": "Paragraph 1",
+            "name": "seo_paragraph_1",
+            "type": "textarea"
+        },
+        {
+            "key": "field_seo_paragraph_2",
+            "label": "Paragraph 2",
+            "name": "seo_paragraph_2",
+            "type": "textarea"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-landing.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": ""
+}

@@ -1,0 +1,136 @@
+{
+    "key": "group_shop_by_discipline",
+    "title": "Shop by Discipline Section",
+    "fields": [
+        {
+            "key": "field_discipline_heading",
+            "label": "Section Headline",
+            "name": "discipline_heading",
+            "type": "text"
+        },
+        {
+            "key": "field_discipline_1_img",
+            "label": "Discipline 1 Image",
+            "name": "discipline_1_img",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_discipline_1_label",
+            "label": "Discipline 1 Label",
+            "name": "discipline_1_label",
+            "type": "text"
+        },
+        {
+            "key": "field_discipline_1_url",
+            "label": "Discipline 1 URL",
+            "name": "discipline_1_url",
+            "type": "url"
+        },
+        {
+            "key": "field_discipline_2_img",
+            "label": "Discipline 2 Image",
+            "name": "discipline_2_img",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_discipline_2_label",
+            "label": "Discipline 2 Label",
+            "name": "discipline_2_label",
+            "type": "text"
+        },
+        {
+            "key": "field_discipline_2_url",
+            "label": "Discipline 2 URL",
+            "name": "discipline_2_url",
+            "type": "url"
+        },
+        {
+            "key": "field_discipline_3_img",
+            "label": "Discipline 3 Image",
+            "name": "discipline_3_img",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_discipline_3_label",
+            "label": "Discipline 3 Label",
+            "name": "discipline_3_label",
+            "type": "text"
+        },
+        {
+            "key": "field_discipline_3_url",
+            "label": "Discipline 3 URL",
+            "name": "discipline_3_url",
+            "type": "url"
+        },
+        {
+            "key": "field_discipline_4_img",
+            "label": "Discipline 4 Image",
+            "name": "discipline_4_img",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_discipline_4_label",
+            "label": "Discipline 4 Label",
+            "name": "discipline_4_label",
+            "type": "text"
+        },
+        {
+            "key": "field_discipline_4_url",
+            "label": "Discipline 4 URL",
+            "name": "discipline_4_url",
+            "type": "url"
+        },
+        {
+            "key": "field_discipline_5_img",
+            "label": "Discipline 5 Image",
+            "name": "discipline_5_img",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_discipline_5_label",
+            "label": "Discipline 5 Label",
+            "name": "discipline_5_label",
+            "type": "text"
+        },
+        {
+            "key": "field_discipline_5_url",
+            "label": "Discipline 5 URL",
+            "name": "discipline_5_url",
+            "type": "url"
+        },
+        {
+            "key": "field_discipline_6_img",
+            "label": "Discipline 6 Image",
+            "name": "discipline_6_img",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_discipline_6_label",
+            "label": "Discipline 6 Label",
+            "name": "discipline_6_label",
+            "type": "text"
+        },
+        {
+            "key": "field_discipline_6_url",
+            "label": "Discipline 6 URL",
+            "name": "discipline_6_url",
+            "type": "url"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-landing.php"
+            }
+        ]
+    ],
+    "active": true
+}
