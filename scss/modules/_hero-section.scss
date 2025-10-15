@@ -1,0 +1,156 @@
+/* Hero Section */
+.hero-slider {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  max-height: 600px; 
+  overflow: hidden;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: flex-end;      
+  justify-content: left;    
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 60px;
+}
+
+.swiper-slide::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.hero-content {
+  position: absolute;         
+  bottom: 60px;                 
+  left: 8%;
+  transform: none;
+  text-align: left;             
+  color: #fff;
+  z-index: 2;
+  max-width: 1440px;            
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-bottom: 56px;
+
+  .sub-headline {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .hero-headline {
+    font-size: clamp(24px, 5vw, 48px);
+    font-weight: 700;
+    margin: 10px 0 20px 0;
+  }
+
+  .hero-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #111;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+}
+
+/* Slider Pagination */
+.hero-slider-pagination {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  text-align: center;
+
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 0 3px;
+    border-radius: 2px;
+    transition: background 0.3s;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #fff;
+  }
+}
+
+.hero-slider {
+  position: relative;
+  width: 100%;
+  min-height: 50vh;   // ensures some height on small screens
+  max-height: 700px;  // prevents huge banners on large monitors
+  overflow: hidden;
+}
+
+.hero-slide {
+  width: 100%;
+  height: 100%;   // takes full height of parent
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .hero-slider {
+    min-height: 40vh;
+    max-height: 500px;
+  }
+}
+
+
+/* Tablet */
+@media (max-width: 900px) {
+  .hero-slider {
+    max-height: 450px;
+  }
+
+  .hero-content {
+    .hero-headline {
+      font-size: clamp(22px, 6vw, 36px);
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .hero-slider {
+    max-height: 350px;
+  }
+
+  .hero-content {
+    .sub-headline {
+      font-size: 12px;
+    }
+    .hero-headline {
+      font-size: clamp(18px, 7vw, 28px);
+    }
+    .hero-btn {
+      padding: 8px 16px;
+      font-size: 12px;
+    }
+  }
+}

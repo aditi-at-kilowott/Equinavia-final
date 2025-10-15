@@ -1,0 +1,117 @@
+/* Shop The Look Section */
+.shop-the-look {
+    margin: 80px 0;
+    padding: 0 16px; /* Small padding for mobile */
+}
+
+.shop-heading {
+    font-size: clamp(24px, 4vw, 38px); /* Scales between 24px and 38px */
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.shop-banner-image {
+    width: 100%;
+    aspect-ratio: 16/9; /* Keeps image proportional */
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hotspot Styling */
+.hotspot {
+    position: absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+/* The yellow dot */
+.hotspot-dot {
+    width: 14px;
+    height: 14px;
+    background-color: #fce319;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+}
+
+/* The label container */
+.hotspot-label {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transform: translate(15px, -50%);
+}
+
+.hotspot:hover .hotspot-label {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Hotspot positioning (adjust as needed) */
+.hotspot-1 {
+    top: 50%;
+    left: 20%;
+}
+
+.hotspot-2 {
+    top: 30%;
+    left: 45%;
+}
+
+.hotspot-3 {
+    top: 55%;
+    left: 55%;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .shop-heading {
+        font-size: clamp(22px, 3vw, 30px);
+    }
+
+    .hotspot-label {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .shop-heading {
+        font-size: 22px;
+    }
+
+    .shop-banner-image {
+        aspect-ratio: 4/3; /* Taller image for mobile */
+    }
+
+    /* Adjust hotspot positions */
+    .hotspot-1 {
+        top: 60%;
+        left: 25%;
+    }
+
+    .hotspot-2 {
+        top: 40%;
+        left: 55%;
+    }
+
+    .hotspot-3 {
+        top: 65%;
+        left: 65%;
+    }
+}

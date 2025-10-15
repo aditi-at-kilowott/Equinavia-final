@@ -1,0 +1,27 @@
+/* SEO Content Section */
+.seo-content {
+    width: 100%;
+    margin: 60px 0;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    background: #fff; /* Optional: add a background if needed */
+}
+
+.seo-content h2 {
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;      /* Align left for full width */
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+.seo-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #444;
+    text-align: left;      /* Align left for full width */
+    max-width: none;       /* Remove max-width restriction */
+    margin: 0;
+}

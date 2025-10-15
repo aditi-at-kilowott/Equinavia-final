@@ -1,0 +1,78 @@
+/* ===============================
+   Shop by Discipline Section
+================================= */
+.shop-by-discipline {
+    margin: 80px 0;
+    padding: 0 20px; /* padding for smaller screens */
+}
+
+.discipline-heading {
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Grid Layout */
+.discipline-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* desktop */
+    gap: 20px;
+}
+
+/* Items */
+.discipline-item {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+.discipline-image {
+    overflow: hidden;
+}
+.discipline-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+.discipline-item:hover .discipline-image img {
+    transform: scale(1.05);
+}
+.discipline-label {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+
+/* ===============================
+   Responsive Breakpoints
+================================= */
+@media (max-width: 1200px) {
+    .discipline-grid {
+        grid-template-columns: repeat(4, 1fr); /* 4 per row on large tablets */
+    }
+}
+
+@media (max-width: 992px) {
+    .discipline-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 per row on tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .discipline-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 per row on small tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .discipline-grid {
+        grid-template-columns: 1fr; /* single column on mobile */
+    }
+    .discipline-heading {
+        font-size: 24px; /* smaller heading on mobile */
+    }
+}

@@ -1,0 +1,55 @@
+/* Shop by Brand Section */
+.shop-by-brand {
+    margin: 80px 0;
+}
+
+.brand-heading {
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.brand-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
+    gap: 20px;
+    /* Removed fixed width and margin-left to make it responsive */
+}
+
+.brand-item {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.brand-image {
+    overflow: hidden;
+}
+
+.brand-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.brand-item:hover .brand-image img {
+    transform: scale(1.05);
+}
+
+.brand-label {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .brand-grid {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on mobile */
+    }
+}

@@ -1,0 +1,209 @@
+/* ===============================
+   Container
+================================= */
+.container { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
+}
+
+/* ===============================
+   Topbar
+================================= */
+.topbar { 
+    background: #eee; 
+    font-size: 13px; 
+    color: #333; 
+    text-align: center; 
+    padding: 6px 0; 
+}
+.topbar-text { 
+    margin: 0; 
+}
+
+/* ===============================
+   Header Main
+================================= */
+.header-main { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 18px 0; 
+    border-bottom: none; 
+    flex-wrap: wrap; /* allow wrapping on small screens */
+}
+
+/* Logo / Branding */
+.site-branding {
+    flex-shrink: 0;
+}
+.site-branding img { 
+    height: 50px; 
+    width: auto; 
+    display: block; 
+}
+.site-title { 
+    font-size: 18px; 
+    font-weight: 600; 
+    text-decoration: none; 
+    color: #111; 
+}
+
+/* ===============================
+   Navigation
+================================= */
+.main-navigation { 
+    margin: 0 40px; 
+    flex: 1;
+}
+.nav-menu { 
+    display: flex; 
+    gap: 28px; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    align-items: center; 
+    justify-content: flex-start; 
+}
+.nav-menu li { 
+    margin: 0; 
+}
+.nav-menu li a { 
+    text-decoration: none; 
+    color: #111; 
+    font-weight: 500; 
+    font-size: 13px; 
+    letter-spacing: 0.6px; 
+    text-transform: uppercase; 
+    padding: 6px 0; 
+    display: block; 
+    position: relative;
+}
+
+/* underline hover effect */
+.nav-menu li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease-in-out;
+}
+.nav-menu li a:hover::after {
+    width: 100%;
+}
+
+/* ===============================
+   Header Actions (icons)
+================================= */
+.header-actions { 
+    display: flex; 
+    gap: 14px; 
+    align-items: center; 
+    flex-shrink: 0;
+}
+.icon-btn { 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 36px; 
+    height: 36px; 
+    border-radius: 4px; 
+    background: transparent; 
+    border: none; 
+    cursor: pointer; 
+}
+.icon-btn svg, 
+.icon-btn img { 
+    width: 18px; 
+    height: 18px; 
+    color: #111; 
+}
+
+/* ===============================
+   Header Bottom Links (optional)
+================================= */
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-links a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    padding: 6px 0;
+    display: block;
+}
+.header-links a:hover {
+    color: #0073e6;
+}
+
+/* ===============================
+   Mobile Menu Toggle
+================================= */
+.menu-toggle { 
+    display: none; 
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 22px; 
+    color: #111;
+}
+
+/* ===============================
+   Responsive
+================================= */
+@media (max-width: 992px) {
+    .main-navigation {
+        order: 3; /* nav goes below logo + icons */
+        width: 100%;
+    }
+
+    .nav-menu { 
+        display: none; 
+        flex-direction: column; 
+        gap: 16px; 
+        padding: 15px 20px; 
+        background: #fff; 
+        box-shadow: 0 6px 20px rgba(0,0,0,.08); 
+        width: 100%; 
+        border-top: 1px solid #eee; 
+    }
+    .nav-menu.open { 
+        display: flex; 
+    }
+
+    .menu-toggle { 
+        display: block; 
+        margin-left: auto; 
+    }
+
+    .header-main { 
+        flex-wrap: nowrap; 
+    }
+}
+
+@media (max-width: 576px) {
+    .site-branding img { 
+        height: 38px; 
+    }
+    .nav-menu li a { 
+        font-size: 14px; 
+    }
+    .header-actions { 
+        gap: 8px; 
+    }
+}
